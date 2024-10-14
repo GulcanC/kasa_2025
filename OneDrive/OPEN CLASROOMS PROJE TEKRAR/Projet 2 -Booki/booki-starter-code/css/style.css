@@ -9,6 +9,50 @@
     --filter-bg-color: #DEEBFF;
 }
 
+/*🩸 header 🩸*/
+
+.header {
+
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_nav ul{
+
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.header_nav ul li{
+
+    color: black;
+    font-weight: 300;
+}
+
+.header_nav ul li:hover{
+
+    color: #0065FC;
+    font-weight: 300;
+    border-top: 2px solid #0065FC; 
+    padding-top: 20px;
+   
+    
+}
+
+  
+.header img {
+        height: 30px;
+        width: 70px;
+    
+}
+
+
 .fa-solid {
     color: var(--main-color);
 }
