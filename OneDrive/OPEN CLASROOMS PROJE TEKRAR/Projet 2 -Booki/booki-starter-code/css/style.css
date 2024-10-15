@@ -99,6 +99,36 @@ text-align: center;
 
 /*🩸 filters 🩸*/
 
+.filters {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  
+}
+.filters_title {
+ margin: 0px;
+  
+}
+
+.filters ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.filters ul li{
+  list-style-type: none;
+  border: 1px solid rgb(190, 188, 188);
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #deebff;;
+}
+
 .fa-solid {
   color: var(--main-color);
 }
