@@ -366,6 +366,69 @@ a {
   margin-bottom: 5px;
 }
 
+/***** Activites marseille *****/
+
+.activite-marseille {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px;
+
+}
+
+.marseille-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.marseille-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  object-fit: fill;
+  
+}
+
+.marseille-cards .card {
+  display: flex;
+  margin-top: 33px;
+  width: 290px;
+  height: 380px;
+  flex-direction: column;
+  object-fit: fill;
+  display: flex;
+  align-items: center;
+}
+
+.marseille-cards img {
+  width: 290px;
+  height: 330px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: fill;
+  margin-top: -10px;
+
+}
+
+.marseille-cards .card-content {
+  width: 100%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+margin-top: 10px;
+}
+
+.marseille-cards .card-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
