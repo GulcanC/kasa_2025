@@ -152,6 +152,25 @@ text-align: center;
   margin-right: 10px;
 }
 
+.filters_info {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  gap:14px
+}
+
+/* top right bottom left */
+
+.filters_icon_info { 
+border: 1px solid rgb(211, 208, 208);
+padding: 5px  8.5px 5px 8.5px;
+border-radius: 100px;
+font-size: small;
+
+
+}
+
 
 .fa-solid {
   color: var(--main-color);
