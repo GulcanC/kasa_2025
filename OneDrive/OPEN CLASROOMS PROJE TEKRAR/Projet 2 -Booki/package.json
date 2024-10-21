@@ -1,0 +1,16 @@
+{
+  "name": "projet-2--booki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "homepage": "https://gulcanc.github.io/Dev_Web_Prj_2",
+  "dependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
