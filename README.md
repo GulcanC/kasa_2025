@@ -1,4 +1,4 @@
-## https://gulcan-kasa-2025.web.app/home
+## Visit my app KASA ➡️➡️➡️ https://gulcan-kasa-2025.web.app/home
 
 # Getting Started with Create React App
 
